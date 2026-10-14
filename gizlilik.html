@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#070C16">
+<title>Gizlilik Politikası - AGENT XI</title>
+<meta name="description" content="AGENT XI gizlilik politikası: hangi veriler işlenir, reklamlar, satın almalar, haklarınız.">
+<style>
+:root{--bg:#070C16;--fg:#EAF0FA;--ac:#E7B14C;--mut:#9AA8C2;--line:#1B2740;--card:#0E1626}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 48px}
+header.top{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center;padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.brand{font-weight:800;letter-spacing:.08em;color:var(--ac);text-decoration:none}
+nav a,.lang a{color:var(--fg);text-decoration:none;margin-right:14px;font-size:15px}
+nav a:last-child{margin-right:0}
+.lang a{margin:0;color:var(--ac);font-weight:600}
+a{color:var(--ac)}
+h1{font-size:1.75rem;line-height:1.25;margin:.2em 0 .5em}
+h2{font-size:1.25rem;margin:1.8em 0 .4em;color:var(--ac)}
+h3{font-size:1.05rem;margin:1.4em 0 .3em}
+p,li{overflow-wrap:anywhere}
+.meta{color:var(--mut);font-size:.92rem}
+.tag{display:inline-block;border:1px solid var(--ac);color:var(--ac);border-radius:999px;padding:2px 12px;font-size:.85rem;margin:.4em 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.93rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--card);color:var(--ac)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.88em}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:.6em 0 .2em}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--mut);font-size:.9rem}
+footer a{margin-right:12px}
+@media(max-width:600px){
+table,thead,tbody,tr,th,td{display:block;width:100%}
+thead{position:absolute;left:-9999px}
+tr{border:1px solid var(--line);border-radius:8px;margin:10px 0;padding:4px 0}
+td{border:0;padding:4px 12px}
+td::before{content:attr(data-l);display:block;color:var(--mut);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<a class="brand" href="index.html">AGENT XI</a>
+<nav><a href="gizlilik.html">Gizlilik</a> <a href="kullanim-sartlari.html">Kullanım Şartları</a> <a href="destek.html">Destek</a></nav>
+<span class="lang"><a href="privacy.html" hreflang="en">English</a></span>
+</header>
+<main>
+
+<h1>Gizlilik Politikası</h1>
+<p class="meta"><strong>Uygulama:</strong> AGENT XI<br>
+<strong>Geliştirici / Veri sorumlusu:</strong> Eray Sarı<br>
+<strong>İletişim:</strong> <a href="mailto:eraygs001@hotmail.com">eraygs001@hotmail.com</a><br>
+<strong>Son güncelleme:</strong> 14 Ekim 2026</p>
+
+<h2>1. Genel bakış</h2>
+<p>AGENT XI, bir futbol menajerlik oyunudur. Oyunda bir futbol ajansı yönetirsiniz: genç oyuncu keşfedersiniz, temsil sözleşmesi yaparsınız, transfer pazarlıklarında komisyon kazanırsınız. Bu politika, uygulamanın hangi verileri işlediğini ve bu verilerle ne yaptığımızı açıklar.</p>
+<p><strong>Hesap açmanız gerekmez. Sunucuya kayıt gönderilmez.</strong> Oyun ilerlemeniz cihazınızda saklanır.</p>
+
+<h2>2. Hangi veriler işlenir</h2>
+<table><thead><tr><th>Veri</th><th>Nerede saklanır</th><th>Ne için</th></tr></thead><tbody><tr><td data-l="Veri">Oyun kayıtları (en çok 8 kayıt yuvası: 5'i herkese açık, 3'ü VIP ile yeni kariyere açılır; oyuncu, kulüp, sözleşme, ilerleme)</td><td data-l="Nerede saklanır">Yalnız cihazınızda (<code>shared_preferences</code>)</td><td data-l="Ne için">Oyunu kaydetmek ve sürdürmek</td></tr><tr><td data-l="Veri">Ayarlar (dil, ses vb.)</td><td data-l="Nerede saklanır">Yalnız cihazınızda (<code>shared_preferences</code>)</td><td data-l="Ne için">Tercihlerinizi hatırlamak</td></tr><tr><td data-l="Veri">Satın alma hakkı defteri (<code>iap_ledger_v1</code>)</td><td data-l="Nerede saklanır">Yalnız cihazınızda</td><td data-l="Ne için">Satın alınmış hakları göstermek</td></tr><tr><td data-l="Veri">Uygulama kullanıcı kimliği (anonim)</td><td data-l="Nerede saklanır">RevenueCat tarafında</td><td data-l="Ne için">Satın almaları hesabınıza bağlamak ve geri yüklemek</td></tr><tr><td data-l="Veri">Satın alma geçmişi</td><td data-l="Nerede saklanır">Apple ve RevenueCat tarafında</td><td data-l="Ne için">Satın alımı doğrulamak ve geri yüklemek</td></tr><tr><td data-l="Veri">Reklam kimliği (IDFA)</td><td data-l="Nerede saklanır">Google AdMob tarafından, reklam gösterimi için</td><td data-l="Ne için">Reklam göstermek ve reklam performansını ölçmek</td></tr><tr><td data-l="Veri">Reklam onay tercihiniz (AB/EEA için)</td><td data-l="Nerede saklanır">Google UMP onay formu ve cihazınızda</td><td data-l="Ne için">Kişiselleştirilmiş reklam için onayınızı kaydetmek</td></tr><tr><td data-l="Veri">Cihaz içi kullanım günlüğü (mağaza, oturum ve başlangıç rehberi adım olayları, kimliksiz)</td><td data-l="Nerede saklanır">Yalnız cihazınızda, en çok 500 kayıt (<code>olcum_gunlugu_v1</code>); hiçbir yere gönderilmez</td><td data-l="Ne için">Oyun içi ölçüm. Varsayılan olarak açıktır; Ayarlar &gt; Gizlilik bölümünden kapatılır ve silinir.</td></tr><tr><td data-l="Veri">Cihaz saati tabanı (görülen en ileri saat, tek sayı)</td><td data-l="Nerede saklanır">Yalnız cihazınızda (<code>guvenilir_saat_v1</code>); hiçbir yere gönderilmez</td><td data-l="Ne için">Saati geri alarak zamana bağlı ödüllerin yeniden kazanılmasını önlemek</td></tr><tr><td data-l="Veri">Deney (A/B) ataması: rastgele kurulum tohumu, son sunucu ataması, ölçülmüş atama listesi (kimliksiz; tohum cihazdan çıkmaz)</td><td data-l="Nerede saklanır">Yalnız cihazınızda (<code>ab_kurulum_v1</code>, <code>ab_atama_v1</code>); sunucu ataması, satın almada zaten kullanılan anonim RevenueCat kimliğiyle yapılan teklif sorgusundan (meta veri) okunur; A/B için cihazdan ek veri gönderilmez</td><td data-l="Ne için">Mağaza teklif sırası ve etkinlik metni gibi arayüz varyantlarını denemek; fiyat ve ödül değişmez</td></tr><tr><td data-l="Veri">Çökme raporları / analitik</td><td data-l="Nerede saklanır">Toplanmaz (uygulamada çökme raporlama ya da analitik hizmeti yoktur)</td><td data-l="Ne için">Böyle bir araç eklenirse bu satır ve politika güncellenir</td></tr></tbody></table>
+<p><strong>Oyun içi veriler sunucuya gönderilmez.</strong> Oyun kayıtlarınız, ayarlarınız ve satın alma defteri yalnız cihazınızda tutulur. Geliştiriciye veya üçüncü tarafa aktarılmaz.</p>
+
+<h2>3. Satın almalar</h2>
+<p>Uygulama içi satın almalar Apple App Store üzerinden yapılır. Ödeme bilgilerinizi (kart numarası vb.) biz görmeyiz; bunları mağaza işler. Satın alma doğrulaması ve hak yönetimi için RevenueCat kullanılır. RevenueCat, satın alma işlemlerinizi anonim bir uygulama kullanıcı kimliğiyle eşleştirir. Ayrıntılar için RevenueCat'in gizlilik politikasına bakın.</p>
+
+<h2>4. Reklamlar</h2>
+<p>Uygulama reklam göstermek için Google AdMob kullanır. Banner reklam yoktur. İki tür reklam vardır: izlemeyi sizin seçtiğiniz ödüllü reklamlar ve seyrek görünen tam ekran geçiş reklamları (kritik oyun anlarında çıkmaz). VIP aboneliği ya da tek seferlik "Reklamları Kaldır" satın alımı olan oyuncuya reklam gösterilmez.</p>
+<ul>
+<li><strong>Reklam kimliği:</strong> AdMob, kişiselleştirilmiş reklam için cihazın reklam kimliğini (IDFA) kullanabilir.</li>
+<li><strong>iOS izni (ATT):</strong> Kişiselleştirilmiş reklam için uygulama, izin ekranında onayınızı ister. Reddederseniz oyun aynen çalışır, yalnız reklamlar kişiselleştirilmez.</li>
+<li><strong>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre:</strong> Kişisel veri işlenmeden önce Google UMP (User Messaging Platform) onay formu gösterilir. Tercihinizi istediğiniz zaman Ayarlar &gt; "Reklam gizlilik tercihleri" satırından değiştirebilirsiniz (satır, onay gerektiren bölgelerde görünür).</li>
+<li>AdMob'un veri işleme için kendi politikası geçerlidir: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+
+<h2>5. Yaş sınırı</h2>
+<p>AGENT XI <strong>13 yaş ve üzeri</strong> kullanıcılar içindir. 13 yaşından küçük çocuklardan bilerek veri toplamayız. Bir çocuğun veri gönderdiğini fark edersek ilgili veriyi cihazdan silmesi için bize <a href="mailto:eraygs001@hotmail.com">eraygs001@hotmail.com</a> üzerinden ulaşabilirsiniz.</p>
+
+<h2>6. Verileriniz nasıl silinir</h2>
+<ul>
+<li><strong>Oyun kayıtlarını silmek:</strong> Ayarlar &gt; Veri &gt; "Kaydı sıfırla". Bu işlem tüm kayıt yuvalarını (8) siler. Ayarlarınız ve satın alma defteriniz bu işlemle silinmez.</li>
+<li><strong>Kullanım günlüğünü silmek:</strong> Ayarlar &gt; Gizlilik bölümünde "Günlüğü sil" düğmesi vardır; günlüğü kapattığınızda mevcut günlük de silinir.</li>
+<li><strong>Uygulamayı silmek:</strong> Uygulamayı kaldırdığınızda cihazdaki tüm yerel veriler de silinir.</li>
+<li><strong>Satın alma ve reklam verileri:</strong> RevenueCat, AdMob ve mağaza tarafındaki veriler için ilgili şirketlerin silme süreçlerini kullanın. Reklam kimliğini cihaz ayarlarından sıfırlayabilirsiniz (iOS: Ayarlar &gt; Gizlilik ve Güvenlik &gt; İzleme).</li>
+</ul>
+
+<h2>7. Veri güvenliği</h2>
+<p>Yerel kayıtlar cihazın standart depolama alanında tutulur. Kendi sunucularımızda kişisel veri tutmuyoruz.</p>
+
+<h2>8. Haklarınız</h2>
+<p>Kişisel verilerinize erişme, düzeltme, silme, işlemeye itiraz etme ve veri taşınabilirliği gibi haklara KVKK (Türkiye) ve GDPR (AB/EEA) kapsamında sahipsiniz. Taleplerinizi <a href="mailto:eraygs001@hotmail.com">eraygs001@hotmail.com</a> adresine iletebilirsiniz.</p>
+
+<h2>9. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Önemli değişiklikleri uygulama içinde veya mağaza sayfasında duyuracağız.</p>
+
+<h2>10. İletişim</h2>
+<p>İletişim için e-posta kullanın: <a href="mailto:eraygs001@hotmail.com">eraygs001@hotmail.com</a></p>
+
+</main>
+<footer>
+<p><a href="gizlilik.html">Gizlilik</a> <a href="kullanim-sartlari.html">Kullanım Şartları</a> <a href="destek.html">Destek</a></p>
+<p>İletişim: <a href="mailto:eraygs001@hotmail.com">eraygs001@hotmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
